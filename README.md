@@ -1,7 +1,7 @@
 # Fast JSON query language compilation
 
 My talk from CopenhagenJS the 21st of February 2013.
-The slides are located in the slides folder.
+Slides are located in [the slides folder](https://github.com/mafintosh/json-query-compilation/tree/master/slides).
 
 To run the test case do:
 
