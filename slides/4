@@ -1,0 +1,9 @@
+Approach and goals
+
+	We want function match(document) to be as fast as possible
+
+	We will use a simple test case to test our implementation
+	and a simple benchmark to test the performance
+
+
+

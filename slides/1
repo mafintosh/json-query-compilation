@@ -1,0 +1,12 @@
+What?
+
+	What is a JSON query language?
+
+	- A language, specified in JSON,
+	  which allows you to describe a document structure.
+
+	What is a JSON query language compiler?
+
+	- A function compile (query) that returns a
+	  function match (document) that returns
+	  true if the query matches the document

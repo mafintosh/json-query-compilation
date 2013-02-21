@@ -1,0 +1,44 @@
+Coding time!
+
+	Let us implement a subset of MongoDB query language
+	in JavaScript:
+
+		$eq: value
+		$lt: value
+		$gt: value
+
+		$not: negates any query here
+
+	Example query:
+
+		{
+			abefest: 'sjov',
+			age: {
+				$gt: 10,
+				$lt: 40
+			},
+			funny: {
+				$eq: true
+			},
+			john: {
+				$not: {
+					$eq: true
+				}
+			}
+		}
+
+	Example matching document:
+
+		{
+			abefest: 'sjov',
+			age: 13,
+			funny: true
+		}
+
+	Example non-matching document
+
+		{
+			abefest: 'sjov',
+			age: 4,
+			funny: true
+		}

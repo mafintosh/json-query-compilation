@@ -1,0 +1,20 @@
+Some query language examples from the real world.
+
+	MongoDB query language.
+
+		{
+			some_property: {
+				$gt: 10
+			}
+		}
+
+	JSON schemas.
+
+		{
+			type: 'object'
+			properties: {
+				my_proterty: {
+					type: 'string'
+				}
+			}
+		}
